@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<omp.h> //openMP library
 
+// To complie the code, run the following command in terminal:
+// gcc -fopenmp .\helloworld.c
+// then run ./a.exe
+
 void main()
 {
     int id;
